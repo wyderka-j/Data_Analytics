@@ -1,0 +1,23 @@
+The project was made using Microsoft SQL Server
+
+Covid 19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+Link to Dataset: https://ourworldindata.org/covid-deaths
+
+
+Project contains answers to the following questions and and their visualization:
+
+Total Cases vs Total Deaths
+-- Shows likelihood of dying if you contract covid
+-- Shows likelihood of dying if you contract covid in Poland
+Total Cases vs Population
+-- Shows what percentage of population infected with Covid
+-- Shows what percentage of population infected with Covid in Poland
+-- Countries with Highest Infection Rate compared to Population
+-- Countries with Highest Death Count per Population
+BREAKING THINGS DOWN BY CONTINENT
+-- Showing contintents with the highest death count per population
+-- GLOBAL NUMBERS
+Total Population vs Vaccinations
+-- Shows Percentage of Population that has recieved at least one Covid Vaccine
