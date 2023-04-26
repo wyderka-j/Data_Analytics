@@ -1,0 +1,15 @@
+The project was made using Microsoft SQL Server
+
+Project contains answers to the following questions and and their visualization
+
+--Checking unique values
+---------------------------------ANALYSIS---------------------------------
+--grouping sales by productline
+--grouping sales by year
+--grouping sales by dealsize
+--What was the best month for sales in a specific year? How much was earned that month?
+--November seems to be the month, what product do they sell in November
+--Who is our best customer (this could be best answered with RFM, (Recency- last order date, Frequency - count of total orders, Monetary value - total spend))
+--What products are most often sold together? 
+--What city has the highest number of sales in a specific country
+---What is the best product in United States?
