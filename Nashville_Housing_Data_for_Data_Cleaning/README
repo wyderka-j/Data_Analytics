@@ -1,0 +1,10 @@
+The project was made using Microsoft SQL Server
+
+Cleaning Data in SQL Queries
+
+Completed tasks
+-- Standardize Date Format
+-- Populate Property Address data
+-- Breaking out Address into Individual Columns (Address, City, State)
+-- Change Y and N to Yes and No in "Sold as Vacant" field
+-- Delete Unused Columns
