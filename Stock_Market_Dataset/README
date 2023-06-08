@@ -2,3 +2,16 @@ Project Stock Market Dashboard
 ************************************************************************************************************************************************************************
 Data source: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset 
 Link to Dashboard: https://public.tableau.com/app/profile/jolanta.wyderka/viz/StockMarketDashboard_16862376457630/Dashboard1
+
+This dataset contains historical daily prices for all tickers currently trading on NASDAQ.
+
+Data Structure
+
+The date for every symbol is saved in CSV format with common fields:
+    Date - specifies trading date
+    Open - opening price
+    High - maximum price during the day
+    Low - minimum price during the day
+    Close - close price adjusted for splits
+    Adj Close - adjusted close price adjusted for both dividends and splits.
+    Volume - the number of shares that changed hands during a given day
