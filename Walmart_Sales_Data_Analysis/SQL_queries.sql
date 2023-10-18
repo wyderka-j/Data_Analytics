@@ -159,7 +159,7 @@ ORDER BY avg_tax DESC;
 -- Which branch sold more products than average product sold?
 SELECT 
 	branch, 
-    SUM(quantity) AS qnty
+    	SUM(quantity) AS qnty
 FROM sales
 GROUP BY branch
 HAVING SUM(quantity) > (SELECT AVG(quantity) FROM sales)
@@ -168,8 +168,8 @@ ORDER BY qnty DESC;
 -- What is the most common product line by gender
 SELECT
 	gender,
-    product_line,
-    COUNT(gender) AS total_cnt
+    	product_line,
+    	COUNT(gender) AS total_cnt
 FROM sales
 GROUP BY gender, product_line
 ORDER BY total_cnt DESC;
@@ -206,7 +206,7 @@ ORDER BY total_revenue DESC;
 -- Which city has the largest tax/VAT percent?
 SELECT
 	city,
-    ROUND(AVG(tax_pct), 2) AS avg_tax_pct
+    	ROUND(AVG(tax_pct), 2) AS avg_tax_pct
 FROM sales
 GROUP BY city 
 ORDER BY avg_tax_pct DESC;
@@ -252,7 +252,7 @@ ORDER BY gender_cnt DESC;
 -- What is the gender distribution per branch?
 SELECT
 	gender,
-    branch,
+    	branch,
 	COUNT(*) as gender_cnt
 FROM sales
 GROUP BY gender, branch
@@ -269,7 +269,7 @@ ORDER BY avg_rating DESC;
 -- Which time of the day do customers give most ratings per branch?
 SELECT
 	time_of_day,
-    branch,
+   	branch,
 	AVG(rating) AS avg_rating
 FROM sales
 GROUP BY time_of_day, branch
@@ -286,7 +286,7 @@ ORDER BY avg_rating DESC;
 -- Which day of the week has the best average ratings per branch?
 SELECT 
 	day_name,
-    branch,
+   	branch,
 	COUNT(day_name) total_sales
 FROM sales
 GROUP BY day_name, branch
