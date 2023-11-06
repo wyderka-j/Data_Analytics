@@ -1,0 +1,19 @@
+Data Analysis - MySQL Workbench
+
+Data source: https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset/
+
+This dataset encompasses various features related to customer shopping preferences, gathering essential information for businesses seeking to enhance their understanding of 
+their customer base. The features include customer age, gender, purchase amount, preferred payment methods, frequency of purchases, and feedback ratings. Additionally, data 
+on the type of items purchased, shopping frequency, preferred shopping seasons.
+
+Questions 
+-- Number of women and men and their percentage
+-- What Age Group do we mostly serve
+-- What is the most and least popular category
+-- Which season has the most purchases
+-- Most popular payment method
+-- Most popular shipping type
+-- Most popular item
+-- Find the most purchased item by age groups
+-- Find the most common payment method used by age groups
+
