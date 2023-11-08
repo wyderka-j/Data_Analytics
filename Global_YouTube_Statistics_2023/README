@@ -1,0 +1,11 @@
+Data Analysis - MySQL Workbench
+
+Data source: https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023
+Link to Dashboard: https://www.novypro.com/project/global-youtube-statistics-2023
+
+Tasks
+Find information about
+1 a. Top continets in the YT space; Uploads, views, earnings and Subs
+  b. Pct of pay per continent
+2. Top 8 Countries, pct pay
+3. Top 8 Channel Types, sum views
