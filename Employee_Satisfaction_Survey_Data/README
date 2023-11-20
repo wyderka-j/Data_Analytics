@@ -1,0 +1,18 @@
+Data Analysis - MySQL 
+
+Data source: https://www.kaggle.com/datasets/redpen12/employees-satisfaction-analysis/
+
+The Employee Satisfaction Survey dataset is a comprehensive collection of information regarding employees within a company. 
+It includes essential details such as employee identification numbers, self-reported satisfaction levels, performance evaluations, project involvement, work hours, 
+tenure with the company, work accidents, promotions received in the last 5 years, departmental affiliations, and salary levels. 
+
+
+Questions
+1. number of employees and number of employees in each department
+2. number of employees by accicent at work
+3. number of employees by promotion
+4. number of employees in each project
+5. Which three departments had the highest satisfaction scores, and which three had the lowest satisfaction scores?
+6. What is the relationship between salary and satisfaction score?
+7. How did the top two and bottom two depts perform in the following arears:
+  last_evaluation, number_project, average_montly_hours, time_spend_company, time_spend_company, Work_accident, promotion_last_5years
