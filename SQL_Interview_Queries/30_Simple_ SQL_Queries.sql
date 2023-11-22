@@ -7,7 +7,7 @@
 CREATE DATABASE Simple_SQL_Queries;
 USE Simple_SQL_Queries;
 
--- 1. Delete table Employee, Department and Company.*/
+-- 1. Delete table Employee, Department and Company.
 DROP TABLE IF EXISTS Employee;
 DROP TABLE IF EXISTS Department;
 DROP TABLE IF EXISTS Company;
