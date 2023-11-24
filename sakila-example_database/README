@@ -1,0 +1,37 @@
+The Sakila example database
+The Sakila database is a nicely normalised database modelling a DVD rental store. 
+
+History
+The Sakila example database was originally developed by Mike Hillyer of the MySQL AB documentation team. it was ported to other databases by DB Software Laboratory
+License: BSD Copyright DB Software Laboratory http://www.etl-tools.com
+
+
+Questions
+-- Find First name, Last name and Email address of customers from Store 2
+-- Find how many movie have rental rate of 0.99
+-- Find rental rate and how many movies are in each rental rate categories
+-- Which rating do we have the most films in?
+-- Which rating is most prevalant in each store?
+-- List of customers names and addresses
+-- List of films by Film Name, Category, Language
+-- How many times each movie has been rented out? 
+-- Revenue per Movie 
+-- Most Spending Customers 
+-- What Store has historically brought the most revenue 
+--  Rentals per Month (such Jan => How much, etc)
+-- Which date first movie was rented out?
+-- Which date last movie was rented out? 
+-- For each movie, when was the first time and last time it was rented out? 
+-- Last Rental Date of every customer 
+-- Revenue Per Month 
+-- How many distint Renters per month
+-- Number of Distinct Film Rented Each Month 
+-- Number of Rentals in Comedy , Sports and Family 
+-- Users who have been rented at least 3 times
+-- How much revenue has one single store made over PG13 and R rated films
+
+*******************************************************
+--  Create temporary table with Active User,  where active = 1
+-- Reward Users : who has rented at least 30 times
+-- Reward Users who are also active 
+-- All Rewards Users with Phone 
