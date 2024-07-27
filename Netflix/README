@@ -1,0 +1,29 @@
+Data Analysis -  MySQL
+
+Data source: https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv
+
+Questions I Wanted To Answer From the Dataset
+
+-- What were the top 10 movies according to IMDB score?
+-- What were the top 10 shows according to IMDB score? 
+-- What were the bottom 10 movies according to IMDB score? 
+-- What were the bottom 10 shows according to IMDB score? 
+-- What were the average IMDB and TMDB scores for shows and movies? 
+-- What were the 5 most common age certifications for movies?
+-- Calculating the average runtime of movies and TV shows separately
+-- Which shows on Netflix have the most seasons?
+-- Which production countries have the most movies and shows?
+-- What were the average IMDB and TMDB scores for each production country?
+-- What were the average IMDB and TMDB scores for each age certification for shows and movies?
+-- Who were the top 20 actors that appeared the most in movies/shows? 
+-- Who were the top 20 directors that directed the most movies/shows? 
+-- Finding the titles and directors of movies released on or after 2010
+-- Which shows on Netflix have the most seasons?
+-- Which genres had the most movies? 
+-- Which genres had the most shows? 
+-- Titles and Directors of movies with high IMDB scores (>7.5) and high TMDB popularity scores (>80) 
+-- What were the total number of titles for each year? 
+-- Count of movies and shows in each decade
+-- Actors who have starred in the most highly rated movies or shows
+-- Which actors/actresses played the same character in multiple movies or TV shows? 
+-- Average IMDB score for leading actors/actresses in movies or shows 
