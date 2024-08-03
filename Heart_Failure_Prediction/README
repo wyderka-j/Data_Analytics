@@ -1,0 +1,19 @@
+Data Analysis - MySQL
+
+An Analysis of Heart Attack Causes and Trends
+
+
+Data source: https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data
+
+Tasks
+--Basic patient count
+--Counting gender distribution
+--Counting anaemia distribution
+--Counting high blood pressure
+--Counting smokers per gender
+--Counting diabetes per gender
+--Counting deaths per gender
+--Using window functions and an aggregate count to find age trends
+--Use a CTE to create bins of ages
+--Selecting averages and sums of all applicable attributes across each bin
+
